@@ -36,3 +36,5 @@ class Solution {
         }
     }
 }
+//TC=O(m*n)
+//SC=O(m*n)
