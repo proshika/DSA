@@ -1,6 +1,6 @@
 class Solution {
     public int smallestNumber(int n) {
-       while(true){
+     /*  while(true){
        if(!decimalToBinary(n).contains("0")){
         return n;
        }
@@ -14,6 +14,11 @@ class Solution {
         sb.append(n % 2);
         n /= 2;
     }
-    return sb.reverse().toString();
+   return sb.reverse().toString();*/
+   int x=1;
+   while(x<n){
+    x=x<<1|1;
+   }
+   return x;
 }
 }
